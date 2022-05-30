@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application meteo</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="contener_preloader">
+      <div class="preloader"></div>
+    </div>
+    <section class="contener">
+      <div class="title">
+        <h1>Application metéo</h1>
+      </div>
+
+      <div class="contener_meteo">
+        <div class="logo_meteo">
+          <img src="images/jour/04d.svg" alt="" />
+        </div>
+
+        <div class="info_meteo">
+          <p class="desc_temps"></p>
+          <p class="temperature"></p>
+          <p class="localisation"></p>
+        </div>
+      </div>
+      <div class="chang_hour_in_day">
+        <div class="bloc_hour_changes">
+          <p class="hour_change"></p>
+          <p class="changes_meteo"></p>
+        </div>
+        <div class="bloc_hour_changes">
+          <p class="hour_change"></p>
+          <p class="changes_meteo"></p>
+        </div>
+        <div class="bloc_hour_changes">
+          <p class="hour_change"></p>
+          <p class="changes_meteo"></p>
+        </div>
+        <div class="bloc_hour_changes">
+          <p class="hour_change"></p>
+          <p class="changes_meteo"></p>
+        </div>
+        <div class="bloc_hour_changes">
+          <p class="hour_change"></p>
+          <p class="changes_meteo"></p>
+        </div>
+      </div>
+      <div class="bloc_jour_prev">
+        <div class="bloc_j">
+          <p class="jour_previs_name">Lun</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Mar</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Mer</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Jeu</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Ven</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Sam</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+        <div class="bloc_j">
+          <p class="jour_previs_name">Dim</p>
+          <p class="jour_previs_meteo"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
