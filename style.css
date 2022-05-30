@@ -130,6 +130,9 @@ body {
     html{
         font-style: 50%;
     }
+    .contener{
+      margin: 0 auto;
+    }
     .bloc_jour_prev{
         grid-template-columns: repeat(auto-fill,100px);
         justify-content: center;
