@@ -6,8 +6,8 @@
   box-sizing: border-box;
   list-style: none;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 body {
   background-color: #595959;
@@ -48,7 +48,7 @@ body {
   display: none;
 }
 .contener {
-  background: linear-gradient(45deg, #1068b6, #ec60a6);
+  background: linear-gradient(136deg, #0c6fc8, #7f4e67);
   max-width: 800px;
   margin: 3rem auto;
   height: auto;
@@ -57,13 +57,13 @@ body {
   padding: 0 0.5rem;
 }
 .title {
-  text-align: center; 
+  text-align: center;
   padding: 1.6rem;
   border-bottom: 2px solid white;
 }
 .title h1 {
-    color: white;
-    font-size: 4rem;
+  color: white;
+  font-size: 4rem;
 }
 .contener_meteo {
   display: flex;
@@ -81,14 +81,14 @@ body {
   width: 14.5rem;
 }
 .info_meteo p {
-    font-size: 3.5rem;
-    margin: 0.7rem 0;
-    text-align: center;
-    color: white;
+  font-size: 3.5rem;
+  margin: 0.7rem 0;
+  text-align: center;
+  color: white;
 }
 .chang_hour_in_day {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 3rem;
   border-bottom: 2px solid #fff;
 }
@@ -117,24 +117,24 @@ body {
   margin: 0.7rem 0.5rem;
 }
 .bloc_j p {
-    font-size: 2.5rem;
-    color: white;
-    padding: 0.5rem;
+  font-size: 2.5rem;
+  color: white;
+  padding: 0.5rem;
 }
-@media screen and (max-width:700px) {
-    html{
-        font-size: 58%;
-    }
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 58%;
+  }
 }
-@media screen and (max-width:500px) {
-    html{
-        font-style: 50%;
-    }
-    .contener{
-      margin: 0 auto;
-    }
-    .bloc_jour_prev{
-        grid-template-columns: repeat(auto-fill,100px);
-        justify-content: center;
-    }
+@media screen and (max-width: 500px) {
+  html {
+    font-style: 50%;
+  }
+  .contener {
+    margin: 0 auto;
+  }
+  .bloc_jour_prev {
+    grid-template-columns: repeat(auto-fill, 100px);
+    justify-content: center;
+  }
 }
